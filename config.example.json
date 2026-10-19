@@ -1,0 +1,10 @@
+{
+  "pollSeconds": 60,
+  "resetGraceSeconds": 20,
+  "maxConcurrentResumes": 2,
+  "retryCooldownSeconds": 300,
+  "refreshUnchangedMinutes": 15,
+  "controllerThreadId": "REPLACE_WITH_LOCAL_CHAT_ID",
+  "excludeThreadIds": [],
+  "resumePrompt": "Codex 自动续跑：此前这个聊天因使用额度耗尽而停止，监控脚本现已确认额度恢复。请读取本聊天上下文和项目内已有的进度记录，从上次未完成的步骤继续原任务。遵守用户原有目标、范围、审批要求和停止条件；如果任务实际上已经完成，确认完成后停止；如果需要用户作出必需的决定，说明原因后等待用户。"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "codex-auto-resume",
+  "version": "1.0.0",
+  "description": "Resume local Codex chats on Windows after verified usage-limit recovery.",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/molbird/codex-auto-resume.git"
+  },
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "test": "node --test",
+    "check": "node codex-auto-resume.mjs --check",
+    "start": "node codex-auto-resume.mjs --watch"
+  }
+}

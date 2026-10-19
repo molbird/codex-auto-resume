@@ -1,0 +1,10 @@
+runtime/
+.scratch/
+node_modules/
+config.json
+.env
+.env.*
+!.env.example
+*.log
+*.pem
+*.key
